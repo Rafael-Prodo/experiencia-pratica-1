@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Legião da Solidariedade | Transformando comunidades através do voluntariado</title>
+  <meta name="description" content="Legião da Solidariedade - Conectando pessoas e comunidades por meio de iniciativas sociais, educacionais e ambientais.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;family=Inter:wght@400;500&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a href="#conteudo-principal" class="pular-link">Pular para o conteúdo principal</a>
+
+  <header class="cabecalho">
+    <div class="container cabecalho__wrapper">
+      <a href="index.html" class="logo" aria-label="Legião da Solidariedade - página inicial">
+        <img class="logo__imagem" src="assets/logo.png" alt="" aria-hidden="true">
+        <span>Legião da Solidariedade</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navPrincipal" aria-label="Abrir menu de navegação">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="navPrincipal" aria-label="Navegação principal">
+        <ul class="nav__lista">
+          <li><a href="index.html" class="nav__link" aria-current="page">Início</a></li>
+          <li><a href="projetos.html" class="nav__link">Iniciativas</a></li>
+          <li><a href="cadastro.html" class="nav__link nav__link--destaque">Seja Voluntário</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo-principal">
+
+    <section class="hero" aria-labelledby="hero-titulo">
+      <div class="container hero__conteudo">
+        <p class="hero__eyebrow">Desde 2012 construindo pontes solidárias</p>
+        <h1 id="hero-titulo">Pequenas ações, quando somadas, mudam realidades inteiras.</h1>
+        <p class="hero__texto">
+          Somos uma organização não governamental dedicada a conectar voluntários, doadores e
+          comunidades vulneráveis por meio de projetos educacionais, ambientais e de assistência social.
+        </p>
+        <div class="hero__acoes">
+          <a href="cadastro.html" class="botao botao--primario">Quero ser voluntário</a>
+          <a href="projetos.html" class="botao botao--secundario">Conhecer os projetos</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao secao--numeros" aria-labelledby="numeros-titulo">
+      <h2 id="numeros-titulo" class="sr-only">Nossos números</h2>
+      <div class="container numeros__grade">
+        <article class="numero-card">
+          <p class="numero-card__valor">3.200+</p>
+          <p class="numero-card__rotulo">Pessoas impactadas</p>
+        </article>
+        <article class="numero-card">
+          <p class="numero-card__valor">480</p>
+          <p class="numero-card__rotulo">Voluntários ativos</p>
+        </article>
+        <article class="numero-card">
+          <p class="numero-card__valor">27</p>
+          <p class="numero-card__rotulo">Projetos em andamento</p>
+        </article>
+        <article class="numero-card">
+          <p class="numero-card__valor">12</p>
+          <p class="numero-card__rotulo">Anos de atuação</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="secao" aria-labelledby="sobre-titulo">
+      <div class="container">
+        <figure class="figura-sobre">
+          <picture>
+            <source srcset="assets/voluntarios-em-roda.png" type="image/webp">
+            <source srcset="assets/voluntarios-em-roda.png" type="image/svg+xml">
+            <img
+              src="assets/voluntarios-em-roda.png"
+              alt="Grupo de crianças se divertindo no parque, com voluntários ao fundo."
+              width="480"
+              height="320"
+              loading="lazy"
+            >
+          </picture>
+          <figcaption>Colaboração em rede: a base de cada projeto do Legião da Solidariedade.</figcaption>
+        </figure>
+      </div>
+      <div class="container secao--dividida">
+        <div class="secao__texto">
+          <h2 id="sobre-titulo">Quem somos</h2>
+          <p>
+            O <strong>Legião da Solidariedade</strong> nasceu do desejo de um grupo de estudantes e profissionais
+            em transformar boas intenções em ações concretas. Atuamos em parceria com escolas públicas,
+            cooperativas de reciclagem e centros comunitários para gerar impacto social mensurável e duradouro.
+          </p>
+          <p>
+            Acreditamos que a transformação social acontece quando conhecimento, tempo e recursos são
+            compartilhados de forma coletiva e transparente.
+          </p>
+        </div>
+        <div class="secao__texto">
+          <h2>Missão, visão e valores</h2>
+          <dl class="lista-valores">
+            <dt>Missão</dt>
+            <dd>Mobilizar pessoas e recursos para reduzir desigualdades sociais.</dd>
+            <dt>Visão</dt>
+            <dd>Ser referência regional em soluções colaborativas para o terceiro setor.</dd>
+            <dt>Valores</dt>
+            <dd>Transparência, empatia, colaboração e sustentabilidade.</dd>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao secao--cta" aria-labelledby="cta-titulo">
+      <div class="container cta__conteudo">
+        <h2 id="cta-titulo">Faça parte dessa rede de transformação</h2>
+        <p>O seu tempo pode ser exatamente o que uma comunidade precisa agora.</p>
+        <a href="cadastro.html" class="botao botao--primario">Cadastre-se como voluntário</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <div class="container rodape__grade">
+      <div>
+        <p class="logo logo--rodape"><img class="logo__imagem" src="assets/logo.png" alt="" aria-hidden="true"> Legião da Solidariedade</p>
+        <p>Organização da sociedade civil de interesse público (OSCIP).</p>
+      </div>
+      <nav aria-label="Links do rodapé">
+        <h2 class="rodape__titulo">Navegação</h2>
+        <ul class="rodape__lista">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projetos.html">Iniciativas</a></li>
+          <li><a href="cadastro.html">Seja Voluntário</a></li>
+        </ul>
+      </nav>
+      <address class="rodape__contato">
+        <h2 class="rodape__titulo">Contato</h2>
+        <p>contato@legiaodasolidariedade.org.br</p>
+        <p>(11) 4002-8922</p>
+        <p>São Paulo, SP - Brasil</p>
+      </address>
+    </div>
+    <p class="rodape__copy">&copy; <span id="anoAtual">2026</span> Legião da Solidariedade. Projeto acadêmico de desenvolvimento front-end.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
